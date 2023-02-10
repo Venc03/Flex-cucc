@@ -15,7 +15,7 @@ section {
     color: black;
 }
 body{
-    background:beige url('img/hatter.jpg');color:beige
+    background:beige;color:beige
 }
 nav{
     flex-direction: row;
