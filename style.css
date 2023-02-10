@@ -1,0 +1,44 @@
+.flexContainer {
+    display:flex;
+    flex-flow:row wrap; 
+}
+section {
+    flex: 1 1 500px;
+    padding: 10px;
+    border:1px solid cadetblue;
+    border-radius:2px;
+    text-align:justify;
+    justify-content: space-between;
+}
+*{
+    box-sizing: border-box;
+    color: black;
+}
+body{
+    background:beige url('img/hatter.jpg');color:beige
+}
+nav{
+    flex-direction: row;
+}
+nav, footer {
+    background: cadetblue; padding:2px 5px;
+}
+nav ul{
+    padding:0;
+}
+nav ul li {
+    list-style-type: none; padding:0 15px;
+}
+nav a {
+    text-decoration: none;color:#ffcc66
+}
+nav a:hover{
+    color:coral;
+}
+footer {
+    text-align:center;
+}
+main{
+    width: 80%;
+    margin: auto;
+}
